@@ -13,7 +13,11 @@ html {
     width: 100%;
 }
 
-var white = {color: #ffffff};
+var white= {
+    color: #ffffff
+}
+
+;
 
 header a {
     color: white;
@@ -39,17 +43,17 @@ body {
     box-sizing: border-box;
     display: flexbox;
     padding: 80px;
-    margin: 10px; 
+    margin: 10px;
 }
 
 .first-work-image {
     display: flexbox;
     box-sizing: border-box;
     padding: 1px;
-    margin: 10px; 
+    margin: 10px;
     width: 100%;
     height: auto;
-    
+
 }
 
 body header nav {
@@ -97,7 +101,7 @@ body header nav {
     margin-top: 50px;
     margin-bottom: 10px;
     border: white;
-} 
+}
 
 .intro h2 {
     margin-top: 10px;
@@ -122,7 +126,7 @@ body header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2f700e;
     color: white;
-    display: inline-flex ;
+    display: inline-flex;
 }
 
 .contact-me a {
@@ -155,16 +159,117 @@ header h1 {
 }
 
 body section img {
-    height="150px" 
-    width="400px"
+    height: "150px";
+    width: "400px"
 }
 
-.footer {
+.footer {}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
 }
 
-@media (min-width: 40em) {
-    .split {
-        display: flex;
-        gap: 2em;
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
     }
 }
